@@ -1,7 +1,7 @@
 
 # Basic API - Hotel Edition
 
-A simple Node.js API for managing hotel data. This API uses Express.js and MongoDB to store and retrieve hotel information. To get started, follow these steps:
+A simple Node.js API for managing hotel data. This API uses Express.js to retrieve hotel information. To get started, follow these steps:
 
 1.  Install the required packages:
 
@@ -12,7 +12,7 @@ npm install
 1.  Run the application:
 
 ```bash
-npm start
+node index.js
 ```
 
 By default, the server will run on port 5000. You can change the port number by adjusting the code accordingly.
@@ -48,7 +48,8 @@ Replace  `:price`  with the desired maximum price and  `:bed`  with the desired 
 
 ## Usage
 
-To test the API, you can use tools like Postman or CURL. Make sure to set the Content-Type header to  `application/json`  for POST requests.
+You can use your own database, just follow the data.js.
+To test the API, you can use tools like Postman or CURL. 
 
 ## Contributing
 
